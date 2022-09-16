@@ -1,0 +1,135 @@
+@font-face {
+    font-family : 'huruf' ;
+    src: url(font/alegreya-sans/alegreyasanssc-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'rubik';
+    src: url(font/rubik-regular-webfont.woff) format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'huruf';
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 20px;
+    animation: logo 2s linear infinite;
+}
+
+.badan {
+    background-image: url(image/bg-pastel.jpg);
+    background-size: cover;
+}
+.judul {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.wrapper {
+    width: 98%;
+    height: 50px;
+    background: url(image/wrp-bg.jpg),linear-gradient(to bottom, #E0D2EB, #F7B3B0,#ffdad8);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px lightpink;
+    margin-top: 20px;
+    text-transform: capitalize;
+    display: flex;
+    border: 2px solid white;
+    opacity: .9;
+    line-height: 47px;
+}
+
+.wrapper a {
+    padding-left: 20px;
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.computed {
+    color: lightpink;
+}
+
+
+a:hover {
+    color: lightpink;
+    transition: .4s;
+}
+
+.container {
+    width: 98%;
+    height: 100vh;
+    background: url(image/wrp-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px lightpink;
+    border: 2px solid white;
+    opacity: .9;
+    position: relative;
+}
+
+
+
+.kelompok {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    text-shadow: 0 0 4px white;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+.footer {
+    width: 98%;
+    height: 50px;
+    background:url(image/bg-biru.jpg);
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 5px lightpink;
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 1px 1px lightpink;
+}
+
+
+
+@keyframes logo {
+    0% {
+        transform: scale(1.15);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.15);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper a {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+}
+
+/* hamburger */

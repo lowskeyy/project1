@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'rubik';
+    src: url(font/rubik-regular-webfont.woff) format('woff');
+}
+
+h1 {
+    font-family: 'rubik';
+    color: white;
+    filter: drop-shadow(0 0 1px black);
+}
+
+img {
+    margin: 40px auto;
+    display: block;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 4px white;
+    border: 1px solid black;
+}
+
+h3, h2 {
+    text-align: center;
+    font-family: 'rubik';
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+
+.container {
+    height: 100%;
+    border: 2px solid white;
+}
+
+hr {
+    animation: hrAnimation 5s linear infinite;
+    transition: 5s;
+    margin: 0 auto;
+    box-shadow: 0 0 2px black;
+}
+
+.kotak {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #E0D2EB, #F7B3B0,#ffdad8);
+    opacity: .5;
+    box-shadow: 0 0 10px 4px #9895EF;
+    
+    position: relative;
+
+}
+
+.a {
+    position: relative;
+    animation: atasAnimation 5s linear infinite;
+    z-index: 9;
+    left: 20px;
+    top: 0;
+}
+
+.b {
+    top: -50px;
+    left: 95%;
+    animation: atasAnimation 5s linear infinite;
+    z-index: 9;
+}
+
+.c {
+    margin-top: -30px;
+    position: relative;
+    animation: kananAnimation 5s linear infinite;
+    z-index: 9;
+    left: 20px;
+    top: 0;
+}
+
+.d {
+    margin-top: 20px;
+    position: relative;
+    animation: kananAnimation 5s linear infinite;
+    z-index: 9;
+    left: 20px;
+    top: 0;
+}
+
+.e {
+    margin-left: 95%;
+    position: relative;
+    bottom: 50px;
+    animation: kiriAnimation 5s linear infinite;
+    right: 0;
+    z-index: 10;
+}
+
+.f {
+    margin-left: 95%;
+    position: relative;
+    bottom: 50px;
+    animation: kiriAnimation 5s linear infinite;
+    right: 0;
+    z-index: 10;
+}
+
+.g {
+    margin-top: 0;
+    position: relative;
+    z-index: 9;
+    left: 20px;
+    top: 0;
+    animation: bawahAnimation 5s linear infinite;
+}
+
+.h {
+    margin-left: 95%;
+    position: relative;
+    bottom: 50px;
+    right: 0;
+    z-index: 10;
+    animation: bawahAnimation 5s linear infinite;
+    top: 0;
+}
+
+img {
+    animation: imgScroll 1s;
+}
+
+img:hover {
+    transform: scale(1.15);
+    transition: .7s;
+}
+
+.firstname span {
+    color: lightpink;
+}
+
+/* keyframe */
+@keyframes hrAnimation
+ {
+    0% {
+        width: 20%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+
+
+@keyframes atasAnimation {
+    0% {
+        transform: rotate(2160deg);
+    }
+    50% {
+        top:-1510px;
+    }
+    100% {
+
+    }
+}
+
+@keyframes kananAnimation {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        left:95%;
+    }
+    100% {
+
+    }
+}
+
+@keyframes imgScroll {
+    0% {
+        margin-top: -20px;
+        opacity: .3;
+    }
+    100% {
+        margin-top: 40px;
+        opacity: 1;
+    }
+}
+
+@keyframes kiriAnimation {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        right: 95%;
+    }
+}
+
+@keyframes bawahAnimation {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        top: 1510px;
+    }
+}
+
+/* media */
+@media screen and (max-width: 600px) {
+    @keyframes atasAnimation {
+        0% {
+            transform: rotate(2160deg);
+        }
+        50% {
+            top:-1510px;
+        }
+        100% {
+    
+        }
+    }
+    
+    @keyframes kananAnimation {
+        0% {
+            transform: rotate(1060deg);
+        }
+        50% {
+            left:88%;
+        }
+        100% {
+    
+        }
+    }
+
+    
+    @keyframes kiriAnimation {
+        0% {
+            transform: rotate(1060deg);
+        }
+        50% {
+            right: 88%;
+        }
+    }
+    
+    @keyframes bawahAnimation {
+        0% {
+            transform: rotate(1060deg);
+        }
+        50% {
+            top: 1510px;
+        }
+    }
+
+    .h, .e  , .f {
+        margin-left: 88%;
+    }
+
+    .b {
+        left: 88%;
+    }
+    
+}
+
+

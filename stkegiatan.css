@@ -1,0 +1,146 @@
+.badan {
+    background-image: url(image/bg-pastel.jpg);
+}
+
+table {
+    margin: 70px auto;
+    text-transform: capitalize;
+    z-index: -1;
+    animation: tabel 1s;
+}
+
+td {
+    padding: 10px;
+}
+
+.kiA {    
+    left: 20px;
+    top: 20px;
+    animation: kiA 5s linear infinite;
+    position: relative;
+}
+
+.kaA {
+    left: 20px;
+    animation: kaA 5s linear infinite;
+    position: relative;
+    top: -30px;
+    z-index: 10;
+}
+
+.kaB {
+    margin-left: 95%;
+    animation: kaB 5s linear infinite;
+    position: relative;
+    top: 0px;
+    z-index: 10;
+    right: 0;
+}
+
+.kiB {
+    margin-left: 95%;
+    animation: kiB 5s linear infinite;
+    position: relative;
+    bottom: 50px;
+    z-index: 10;
+    right: 0;
+}
+
+.firstname span {
+    color: lightpink;
+}
+
+/* keyframe */
+
+@keyframes kiA {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        left: 95%;
+    }
+}
+
+@keyframes kaA {
+    0% {
+        transform: rotate(720deg);
+    }
+    50% {
+        top: 460px;
+    }
+}
+
+@keyframes kiB {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        margin-left: 2%;
+    }
+}
+
+@keyframes kaB {
+    0% {
+        transform: rotate(1060deg);
+    }
+    50% {
+        top: -480px;
+    }
+}
+
+@keyframes tabel {
+    0% {
+        margin-top: -100px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 10px;
+    }
+    td {
+        padding: 1px;
+    }
+
+    .kaB, .kiB {
+        margin-left: 88%;
+    }
+/* keyframe */
+    @keyframes kiA {
+        0% {
+            transform: rotate(1060deg);
+        }
+        50% {
+            left: 88%;
+        }
+    }
+
+    @keyframes kaA {
+        0% {
+            transform: rotate(720deg);
+        }
+        50% {
+            top: 400px;
+        }
+    }
+
+    @keyframes kaB {
+        0% {
+            transform: rotate(1060deg);
+        }
+        50% {
+            top: -400px;
+        }
+    }
+}
+
+
+
+
+
+

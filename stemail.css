@@ -1,0 +1,98 @@
+
+
+.container form {
+    margin: 160px 38%;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    font-family: 'rubik';
+}
+
+input {
+    font-size: 16px;
+}
+
+span {
+    visibility: hidden;
+}
+
+.tulis-email {
+    position: relative;
+    bottom: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.head {
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.instagram {
+    margin-top: 85px;
+    margin-left: 20px;
+}
+
+.instagram a {
+    color: black;
+    font-weight: 200;
+    text-shadow: none;
+    top: 10px;
+}
+
+.instagram img {
+    position: relative;
+    top: 5px;
+    padding-left: 20px;
+}
+
+.instagram a:hover {
+    color: lightpink;
+}
+
+.about {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-around;
+    padding-left: 400px;
+}
+
+.email {
+    position: relative;
+    right: 450px;
+}
+
+.firstname span {
+    color: white;
+    visibility: visible;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container form {
+        margin: 100px 100px;
+    }
+
+    .email {
+        right: 0;
+        top:70px;
+    }
+
+    .about {
+        padding-left: 0;
+    }
+
+    .instagram {
+        margin-top: 100px;
+    }
+}
+
