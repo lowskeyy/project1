@@ -43,9 +43,9 @@ h3 {
 }
 
 .instagram a {
-    color: black;
+    color: white;
     font-weight: 200;
-    text-shadow: none;
+    text-shadow: 0 0 10px black;
     top: 10px;
 }
 
@@ -96,3 +96,11 @@ h3 {
     }
 }
 
+.mode {
+    margin-top: -90px;
+    margin-left: 60%;
+}
+
+.mode img {
+    border-radius: 50px;
+}

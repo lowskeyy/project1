@@ -1,24 +1,20 @@
 
 
 .puisi h2 {
-    color: rgb(39, 39, 39);
-    text-shadow: 0 0 4px #fff;
+    color: #fff;
+    text-shadow: 0 0 4px black;
     margin-top: 150px;
     margin-left: 140px;
     font-weight: 200;
 }
 
 
-.container {
-    display: flex;
-}
-
 .pentol {
     width: 280px;
     height: 280px;
     position: relative;
-    margin-top: 220px;
-    left: 320px;
+    margin-left: 70%;
+    margin-top: -400px;
     border: 2px solid #fff;
     box-shadow: 0 0 20px 5px lightpink;
     border-radius: 500px;
@@ -28,6 +24,16 @@
 audio {
     opacity: 0.9;
 }
+
+.mode {
+    margin-top: 70px;
+}
+
+.mode img {
+    border-radius: 50px;
+}
+
+
 
 
 @media screen and (max-width: 600px) {
