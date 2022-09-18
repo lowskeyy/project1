@@ -44,6 +44,10 @@
     border: 2px solid white;
     opacity: .9;
     line-height: 47px;
+    /* position: fixed;
+    z-index: 99;
+    top: 30px;
+    left: 10px; */
 }
 
 .wrapper a {
@@ -148,7 +152,26 @@ a:hover {
     box-shadow: 0 0 5px 2px white;
 }
 
-img:hover {
+.mode img:hover {
     transform: scale(1.15);
     transition: .7s;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(to bottom, #ff56e8, #ffbbfc);
+    border-radius: 50px;
+    /* border-top: 2px solid  #c300ff;
+    border-bottom: 2px solid  #c300ff;
+    border-left:  2px solid #c300ff; */
+    /* box-shadow: 0 0 5px 2px white; */
+}
+
+::-webkit-scrollbar-track {
+    opacity: 0;
 }

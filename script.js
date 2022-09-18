@@ -6,12 +6,12 @@ darkmode.addEventListener('click', function() {
     bg.style.backgroundImage = 'url(image/bgdark.jpg)';
     bg.style.backgroundRepeat = 'no-repeat';
     bg.style.backgroundSize = 'cover';
-    bg.style.color = 'orange';   
+    bg.style.color = 'white';   
     // bg.style.textShadow = '0px 0px 3px white';
     bg.style.boxShadow = ' 0px 0px 5px 3px white';
 
     const bgnav = document.querySelector('.wrapper');
-    bgnav.style.backgroundImage = 'url(image/bgdark.jpg)';
+    bgnav.style.backgroundImage = 'url(image/neon.jpg)';
     bgnav.style.boxShadow = ' 0px 0px 5px 3px white';
 
     const badan = document.querySelector('.badan');
@@ -42,16 +42,6 @@ lightkmode.addEventListener('click', function() {
     footer.style.boxShadow = ' 0px 0px 5px 5px lightpink'
 }
 );
-
-
-
-
-
-
-
-
-
-
 
 
 
