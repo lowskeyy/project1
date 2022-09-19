@@ -263,3 +263,22 @@ img:hover {
 .biodata h3, h2 {
     color: black;
 }
+
+.conbgreset {
+    height: 100%;
+}
+
+
+#resetbg {
+    color: black;
+    text-align: left;
+    top: 0;
+}
+
+input {
+    top: 0;
+}
+
+.input {
+    top: 0;
+}

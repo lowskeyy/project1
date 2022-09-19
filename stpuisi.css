@@ -2,7 +2,6 @@
 
 .puisi h2 {
     color: black;
-    text-shadow: 0 0 4px black;
     margin-top: 150px;
     margin-left: 140px;
     font-weight: 200;
@@ -59,4 +58,20 @@ audio {
     0% {
         transform: rotate(360deg);
     }
+}
+
+input {
+    top: 0;
+}
+
+.input {
+    top: 0;
+}
+
+#resetbg {
+    top: 0;
+}
+
+.conbgreset {
+    height: 100%;
 }

@@ -1,4 +1,6 @@
-
+.container {
+    height: 100%;
+}
 
 .container form {
     margin: 160px 38%;
@@ -40,13 +42,14 @@ h3 {
 .instagram {
     margin-top: 85px;
     margin-left: 20px;
+    position: relative;
+    top: 120px;
 }
 
 .instagram a {
     color: white;
     font-weight: 200;
     text-shadow: 0 0 10px black;
-    top: 10px;
 }
 
 .instagram img {
@@ -103,4 +106,25 @@ h3 {
 
 .mode img {
     border-radius: 50px;
+}
+
+input {
+    top: 0;
+}
+
+.input {
+    top: 0;
+}
+
+#resetbg {
+    top: 0;
+}
+
+.conbgreset form {
+        margin: 160px 38%;
+        font-size: 16px;
+        position: relative;
+        left: 10px;
+        font-family: 'rubik';
+    
 }

@@ -177,7 +177,7 @@ a:hover {
     opacity: 0;
 }
 
-/* 
+
 #resetbg {
     position: relative;
     top: 180px;
@@ -186,7 +186,12 @@ a:hover {
 
 .conbgreset{
     background-image: none;
+    width: 98%;
+    height: 100vh;
+    margin: 20px auto;
 }
+
+
 
 .kotaks {
     width: 40px;
@@ -227,4 +232,9 @@ input {
     position: relative;
     top: 190px;
     left: 20px;
-} */
+}
+
+
+.wrpbggreset {
+    background-image: none;
+}
