@@ -155,6 +155,7 @@ a:hover {
 .mode img:hover {
     transform: scale(1.15);
     transition: .7s;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {

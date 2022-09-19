@@ -21,6 +21,16 @@ darkmode.addEventListener('click', function() {
     footer.style.backgroundImage = 'url(image/bgdark.jpg)';
     footer.style.boxShadow = ' 0px 0px 5px 3px white';
 
+    const biodata = document.getElementsByTagName('h3');
+    for(let i = 0; i < biodata.length; i++) {
+        biodata[i].style.color = 'white';
+    }
+
+    const head = document.getElementsByTagName('h2');
+    for(let i = 0; i < head.length; i++) {
+        head[i].style.color = 'white';
+    }
+
 });
 
 const lightkmode= document.querySelector('.terang');
@@ -39,7 +49,17 @@ lightkmode.addEventListener('click', function() {
 
     const footer = document.querySelector('.footer');
     footer.style.backgroundImage = 'url(image/bg-biru.jpg)';
-    footer.style.boxShadow = ' 0px 0px 5px 5px lightpink'
+    footer.style.boxShadow = ' 0px 0px 5px 5px lightpink';
+
+    const biodata = document.getElementsByTagName('h3');
+    for(let i = 0; i < biodata.length; i++) {
+        biodata[i].style.color = 'black';
+    }
+
+    const head = document.getElementsByTagName('h2');
+    for(let i = 0; i < head.length; i++) {
+        head[i].style.color = 'black';
+    }
 }
 );
 

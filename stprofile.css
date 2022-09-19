@@ -21,7 +21,7 @@ h3, h2 {
     text-align: center;
     font-family: 'rubik';
     color: white;
-    text-shadow: 0 0 4px black;
+    /* text-shadow: 0 0 px white; */
 }
 
 
@@ -257,4 +257,9 @@ img:hover {
 .mode {
     display: flex;
     margin-top: 0;
+}
+
+
+.biodata h3, h2 {
+    color: black;
 }
