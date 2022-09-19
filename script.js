@@ -60,12 +60,42 @@ lightkmode.addEventListener('click', function() {
     for(let i = 0; i < head.length; i++) {
         head[i].style.color = 'black';
     }
+    exit;
 }
 );
 
+// const resetbg = document.querySelector('.container');
+// const resetbg2 = document.querySelector('.badan');
+
+// resetbg.addEventListener('click', function() {
+//     resetbg.setAttribute('class', 'conbgreset');
+//     resetbg2.setAttribute('class', 'conbgreset');
+// });
 
 
+// const sMerah = document.querySelector('input[name = sMerah]');
+// const sHijau = document.querySelector('input[name = sHijau]');
+// const sBiru = document.querySelector('input[name = sBiru]');
 
+// sMerah.addEventListener('input', function(){
+//     rgb();
+// });
+
+// sHijau.addEventListener('input', function(){
+//     rgb();
+// });
+
+// sBiru.addEventListener('input', function(){
+//     rgb();
+// });
+
+// function rgb() {
+//     const a = sMerah.value;
+//     const b = sHijau.value;
+//     const c = sBiru.value;
+//     document.body.style.backgroundColor = 'rgb(' + a + ',' + b + ',' + c + ')';
+
+// }
 
 
 
